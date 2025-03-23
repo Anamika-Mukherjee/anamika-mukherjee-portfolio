@@ -32,12 +32,12 @@ const Education = () =>{
                         </div>
                         <div className="education-mob-dialog">
                             <p className="text-white text-sm tracking-wider select-none">
-                                Bachelor of Engineering in Electronics and Telecommunication from Rungta College of Engineering and Technology, Raipur with 78.5%
+                                Diploma in Engineering in Electronics and Telecommunication from Govt. Girls' Polytechnic, Raipur with 79.5%
                             </p>
                         </div>
                         <div className="education-mob-dialog">
                             <p className="text-white text-sm tracking-wider select-none">
-                                Bachelor of Engineering in Electronics and Telecommunication from Rungta College of Engineering and Technology, Raipur with 78.5%
+                                Higher Secondary from Krishna Public School, Bhilai with 53.8%
                             </p>
                         </div>
                     </div>
