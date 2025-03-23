@@ -6,7 +6,7 @@ const About = () =>{
     return (
         <>
             <div className="about-page lg:relative lg:top-[60px]" id="about-section">
-                <div className="w-1/2 h-full hidden lg:flex justify-center items-center bg-yellow-500">
+                <div className="w-1/2 h-full hidden lg:flex justify-center items-center bg-(--default)">
                     <Image 
                     src="/assets/about.svg"
                     alt="about"

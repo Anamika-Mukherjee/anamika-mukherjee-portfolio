@@ -20,8 +20,8 @@ export const navItems = [
         url: "/#projects-section"
     },
     {
-        label: "Contacts",
-        url: "/#contacts-section"
+        label: "Contact",
+        url: "/#contact-section"
     },
 ]
 
@@ -115,5 +115,6 @@ export const projects = [
 
 export const contact = {
     email: "anamikamukherjee.raipur@gmail.com",
-    linkedin: "https://www.linkedin.com/in/anamika-mukherjee-web-developer"
+    linkedin: "https://www.linkedin.com/in/anamika-mukherjee-web-developer",
+    github: "https://github.com/Anamika-Mukherjee"
 }
