@@ -30,12 +30,11 @@ const Page = ()=>{
     useEffect(()=>{
        projects.map((projectData)=>{
           if(projectData.url.split("/").pop() === project){
-            console.log("url:", projectData.url.split("/").pop());
             const {name, description, techStack, gitHubLink, detailedDesc, deploymentLink, images} = projectData;
             setProjectDetails({name, description, techStack, detailedDesc, gitHubLink, deploymentLink, images});
           }
        })
-    }, []);
+    }, []);  
 
     return(
       <div className="project-details-page">
@@ -54,13 +53,19 @@ const Page = ()=>{
               {projectDetails.images.map((image, index)=>(
                 index > 0 && (
                   <li key={index} className="w-auto h-auto lg:w-[300px] lg:h-[350px] lg:mr-10 flex justify-center items-center">
+                    <Link
+                    href={image}
+                    target="_blank"
+                    >
                     <Image 
+                    id={`image-${index}`}
                     src={image}
                     alt="project image"
                     width={280}
                     height={280}
                     className="rounded-md shadow-black shadow-lg transition duration-150 ease-in hover:cursor-pointer hover:scale-110 hover:shadow-md"
                     />
+                    </Link>
                   </li>
                 )
               ))}
